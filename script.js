@@ -1,3 +1,3 @@
-$('.dropdown-toggle').dropdown() {
-	
-}
+$(function () {
+                $('#datetimepicker1').datetimepicker();
+            });

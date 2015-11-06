@@ -1,5 +1,9 @@
-.body h1 {
+h1 {
 	text-align: center;
+	font-family: sans-serif;
+	border-bottom: solid;
+	padding-bottom: 10px;
+	font-style: italic;
 }
 
 .galleryWrapper {
@@ -25,4 +29,24 @@
 
 .hidden {
 	display: none;
+}
+
+.dropdown {
+	position: absolute;
+	left: 3px;
+
+}
+
+p {
+	text-align: center;
+	font-family: monospace;
+	font-size: 40px;
+
+}
+
+img {
+	vertical-align: middle;
+	display: block;
+	margin: 0 auto;
+
 }
