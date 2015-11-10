@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
 
-
 	<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
 
 </head>
@@ -20,49 +19,69 @@
     				<li><a href="#">Trim Styles</a></li>
     				<li><a href="#">Reservation</a></li>
   				</ul>
+	</div> 
+
+	<h2>Reservation</h2>
+
+	<div class="picture">
+		<img src="pole.png"></img>
 	</div>
 
-	<form role="form">
+
+
+	<form id='style'>
 		<div class="form-group">
 			<label for="first name">First Name</label>
-			<input type="first name" class="form-control" id="first name">
-		</div>
+			<input type="first name" class="form-control" id="inputFirst Name" placeholder="first name">
+		</div> 
 
 		<div class="form-group">
 			<label for="last name">Last Name</label>
-			<input type="last name" class="form-control" id="last name">
-		</div>	
-
-
-	<div class="container">
-			<div class="row">
-				<div class='col-sm-6'>
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker1'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar"></span>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
+			<input type="last name" class="form-control" id="inputLast Name" placeholder="last name">
+		</div>
 
 		<div class="form-group">
-			<label form="Barbers Name">Barber's Name</label>
-			<input type="Barbers Name" class="form-control" id="barbers name">
+			<label for="barber">Barber</label>
+			<select class="form-control">
+				<option>No Preferrence</option>	
+				<option>Bob</option>
+				<option>Jen</option>
+				<option>Joe</option>
+				<option>Gary</option>
+			</select>
 		</div>
 
 
-		
+		<button type="submit" class="btn btn-primary">Submit</button>
 
 	</form>
 
+	<br></br>
+
+	<div class="hours">
+
+		<p>
+			Location: 15th and Pine Street in Center City Philadelphia, PA 
+		</p>
+
+		<p>
+			Hours of Operation: 
+			Monday - Friday: 10:00 AM - 7PM 
+			Saturday: 11AM - 6PM
+			Sunday: 12PM - 5PM 
+		</p>
+	
+		<p>
+			Appointments Only!
+		</p>	
+
+	</div> 
 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
-	</script>
-	<script type"text/javascript" src="script.js"></script>
+</script>
+
+<script type"text/javascript" src="script.js"></script>
 
 
 

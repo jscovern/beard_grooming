@@ -1,3 +1,4 @@
-$(function () {
-                $('#datetimepicker1').datetimepicker();
-            });
+$("#style").submit(function(event) {
+	alert("your reservation is confirmed" );
+	event.preventDefalut();
+});
