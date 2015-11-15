@@ -6,7 +6,7 @@ h1 {
 	font-style: italic;
 }
 
-.galleryWrapper {
+/*.galleryWrapper {
 	text-align: center;
 	border: solid black 2px;
 	position: fixed;
@@ -16,7 +16,7 @@ h1 {
 }
 
 .galleryImage {
-	/*border-radius: 200px;*/
+	border-radius: 200px;
 	border: solid black 1px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -30,7 +30,7 @@ h1 {
 .hidden {
 	display: none;
 }
-
+*/
 .dropdown {
 	position: absolute;
 	left: 3px;
@@ -73,6 +73,10 @@ h2 {
 	font-size: 20px;
 }
 
+.hours {
+	margin-left: 10px;
+}
+
 
 .picture {
 	float: right;
@@ -83,7 +87,12 @@ h2 {
 .form-group {
 	width: 50%; 
 	margin-right: 10px;
+/*	margin-left: 10px;
+*/
+}
 
+#style {
+	margin-left: 10px;
 }
 
 

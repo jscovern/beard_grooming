@@ -1,8 +1,8 @@
-$("#style").submit(function(event) {
-	alert("your reservation is confirmed" );
-	event.preventDefalut();
-});
-
+//  $(".submitForm").submit(function(event) {
+//  	event.preventDefault();
+//   var formData = getQueryStrings();
+//   document.write(formData.firstname + " " + formData.lastname + ", thank you for reserving the " + formData.beardStyle + "!");
+// });
 
 function getQueryStrings() { 
   var assoc  = {};
@@ -20,7 +20,7 @@ function getQueryStrings() {
   return assoc; 
 } 
 
-var formData = getQueryStrings();
-document.write(formData.firstname);
-document.write(formData.lastname);
+ var formData = getQueryStrings();
+ document.write(formData.firstname + " " + formData.lastname + ", thank you for reserving the " + formData.beardStyle + "!");
+// document.write(formData.lastname);
 
